@@ -12,5 +12,6 @@
       "content": "Wow such content!",
       "username": "zero_cool"
     }
-  ]
+  ],
+   "profile": { "name": "이름", "age": 27 }
 }
