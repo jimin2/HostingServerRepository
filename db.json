@@ -5,12 +5,13 @@
       "title": "테스트 타이틀",
       "content" : "테스트 컨텐츠입니다!"
     }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
   ]
+ // ,
+  // "comments" : [
+  //   {
+  //     "id": 0,
+  //     "content": "Wow such content!",
+  //     "username": "zero_cool"
+  //   }
+  // ]
 }
