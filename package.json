@@ -1,36 +1,31 @@
 {
-  "name": "heroku-node-js-example",
-  "version": "0.1.0",
-  "description": "A Node.js app using the SparkPost Heroku add-on",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.14.1",
-    "bootstrap": "^3.3.5",
-    "ejs": "^2.3.4",
-    "express": "^4.13.3",
-    "jquery": "^3.0.0",
-    "sparkpost": "^1.1.0"
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
   },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "script/copy-assets"
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SparkPost/heroku-node-js-example.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
     "node",
     "heroku",
-    "express",
-    "email",
-    "sparkpost"
+    "express"
   ],
-  "author": "SparkPost",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/SparkPost/heroku-node-js-example/issues"
-  },
-  "homepage": "https://github.com/SparkPost/heroku-node-js-example#readme"
+  "license": "MIT"
 }
