@@ -1,12 +1,12 @@
 {
-  "posts":[
+  "posts":
     {
       "id" : 1,
       "title": "테스트 타이틀",
       "content" : "테스트 컨텐츠입니다!",
       "list" : []
     }
-  ],
+  ,
   "comments" : [
     {
       "id": 0,
