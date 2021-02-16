@@ -1,35 +1,37 @@
 {
   "posts":[
-    {
-      "res_code": "200",
-      "res_data": {
-        "listTheme" : {
-          "list":[],
-          "listCnt": 2
-        }
-      }
-    }
     // {
-    //   "id" : 1,
-    //   "title": "테스트 타이틀",
-    //   "content" : "테스트 컨텐츠입니다!"
+    //   "res_code": "200",
+    //   "res_data": {
+    //     "listTheme" : {
+    //       "list":[],
+    //       "listCnt": 2
+    //     }
+    //   }
     // }
+    {
+      "id" : 1,
+      "title": "테스트 타이틀",
+      "content" : "테스트 컨텐츠입니다!",
+      "list" : []
+    }
   ],
   "comments" : [
-     {
-      "res_code": "200",
-      "res_data": {
-        "listTheme" : {
-          "list":[],
-          "listCnt": 2
-        }
-      }
-    }
-    // {
-    //   "id": 0,
-    //   "content": "Wow such content!",
-    //   "username": "zero_cool"
+    //  {
+    //   "res_code": "200",
+    //   "res_data": {
+    //     "listTheme" : {
+    //       "list":[],
+    //       "listCnt": 2
+    //     }
+    //   }
     // }
+    {
+      "id": 0,
+      "content": "Wow such content!",
+      "username": "zero_cool",
+       "list" : []
+    }
   ],
    "profile": { "name": "이름", "age": 27, "address": null }
 }
