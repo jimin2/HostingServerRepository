@@ -16,11 +16,20 @@
     // }
   ],
   "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+     {
+      "res_code": "200",
+      "res_data": {
+        "listTheme" : {
+          "list":[],
+          "listCnt": 2
+        }
+      }
     }
+    // {
+    //   "id": 0,
+    //   "content": "Wow such content!",
+    //   "username": "zero_cool"
+    // }
   ],
    "profile": { "name": "이름", "age": 27, "address": null }
 }
